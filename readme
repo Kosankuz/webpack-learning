@@ -1,0 +1,29 @@
+
+Перед  установкой webpack удостовертесь ,
+Что усовлена последняя версия node JS
+
+Локальная установка:
+
+npm isntall --save-dev webpack
+npm install --save-dev webpack-cli
+
+Глобальныя Установка:
+
+npm isntall --global webpack
+npm install --global webpack-cli
+
+
+1 Урок - начало:
+В первом уроке мы сосздали тестовую структуру папок.
+Так же создвли два js модуля для работы сними по средством webpack
+Еще мы создали простой конфиг фаил для webpack
+
+
+2 Урок - Внешний доступ к модулям
+
+Во первых делаем експорт welcome  в модуле home.js
+во вторых в webpack config  добавим :
+
+library: "home"
+
+теперь модем обращаться к модулю из HTML
