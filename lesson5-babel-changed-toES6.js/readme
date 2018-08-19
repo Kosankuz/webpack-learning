@@ -3,15 +3,15 @@
 
 в webpack.config.js добавим следующее:
 
-module: {               //massive with loaders
-loaders : [{
-test: /\.js$/,
-loader: 'babel'
-}]
- }
+module: {
+         loaders: [
+             {
+                 test: /\.js$/,
+                 loader: 'babel-loader'  // babel makes code of the page readable for older browsers
+             }
+         ]
+     }
 
 Устанавливаем babel-loade:
 
 npm i babel-loader
-
-//
