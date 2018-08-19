@@ -5,5 +5,11 @@
 
 watch: true,
 watchOptions: {
-  aggregateTimeout: 100   
+  aggregateTimeout: 100
 }
+
+запкскаем webpack :
+
+webpack
+
+Обратим внимание что webpack как бы завистнет - жто происходит потому что он длет изменений
