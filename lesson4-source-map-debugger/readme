@@ -1,0 +1,16 @@
+4 Урок - настраиваем  source-map (debugger)
+
+
+для прмера добавляем :
+
+debugger;
+В home.js скрипт
+
+добавляем в webpackconfig :
+
+
+devtool: "source-map"
+
+запускаем webpack :
+
+webpack
