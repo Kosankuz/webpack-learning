@@ -8,6 +8,6 @@ module.exports = {
   }
 };
 
-
+//
 
 // https://generatewebpackconfig.netlify.com visit this site for config generator;
