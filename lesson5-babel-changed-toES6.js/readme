@@ -1,0 +1,17 @@
+5 Урок - добавляем babel.js
+
+
+в webpack.config.js добавим следующее:
+
+module: {               //massive with loaders
+loaders : [{
+test: /\.js$/,
+loader: 'babel'
+}]
+ }
+
+Устанавливаем babel-loade:
+
+npm i babel-loader
+
+//
