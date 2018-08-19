@@ -37,3 +37,27 @@ To run:
 webpack js_file1.js js_file2.js  
 
 Bundle is going to be exported to /dist/main.js
+
+
+-------------------------------------------------
+
+Also you can configure webpack config file (webpack.config.js)
+
+to set up entry points and export directory
+
+examples :
+module.exports = {
+  entry: {
+    app: './src/app.js',
+    vendors: './src/vendors.js'
+  }
+};
+
+
+module.exports = {
+  entry: {
+    pageOne: './src/pageOne/index.js',
+    pageTwo: './src/pageTwo/index.js',
+    pageThree: './src/pageThree/index.js'
+  }
+}; 
