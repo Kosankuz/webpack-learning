@@ -1,0 +1,9 @@
+3 Урок - настраиваем автоматическое собирание bundle
+
+добавляем в webpackconfig :
+
+
+watch: true,
+watchOptions: {
+  aggregateTimeout: 100   
+}
