@@ -9,7 +9,7 @@ debugger;
 добавляем в webpackconfig :
 
 
-devtool: "source-map"
+devtool: "source-map"  // можно использовать для продакшн
 
 запускаем webpack :
 
